@@ -21,7 +21,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func _launch_1() {
-        let bundleUrl = URL(fileURLWithPath: "/Users/fertrig/development/scratch/macos_issue/fl_beta/bundle")
+        let bundleUrl = URL(fileURLWithPath: "/Users/fertrig/development/scratch/macos_issue/fl_beta/blue_bundle")
         let bundle = Bundle.init(path: bundleUrl.path)
         let project = FlutterDartProject.init(precompiledDartBundle: bundle)
         let controller = FlutterViewController.init(project: project)
@@ -32,7 +32,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         window.setContentSize(NSSize(width: 300, height: 400))
         window.setFrameOrigin(NSPoint(x: 100.0, y: 100.0))
-        window.title = "fish"
+        window.title = "blueß"
         
         windowController.window = window
         windowController.showWindow(self)
