@@ -32,7 +32,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         window.setContentSize(NSSize(width: 300, height: 400))
         window.setFrameOrigin(NSPoint(x: 100.0, y: 100.0))
-        window.title = "blueß"
+        window.title = "blue"
         
         windowController.window = window
         windowController.showWindow(self)
