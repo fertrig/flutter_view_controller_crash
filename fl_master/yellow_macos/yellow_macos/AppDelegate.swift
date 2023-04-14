@@ -21,7 +21,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
 
     func _launch_1() {
-        let bundleUrl = URL(fileURLWithPath: "/Users/fertrig/development/explorations/flutter_view_controller_crash/fl_master/yellow_bundle")
+        // Replace /PATH/TO with your own path
+        let bundleUrl = URL(fileURLWithPath: "/PATH/TO/flutter_view_controller_crash/fl_master/yellow_bundle")
         let bundle = Bundle.init(path: bundleUrl.path)
         let project = FlutterDartProject.init(precompiledDartBundle: bundle)
         let controller = FlutterViewController.init(project: project)
